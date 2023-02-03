@@ -1,0 +1,94 @@
+body{
+  margin: 0;
+  height: 100vh;
+}
+
+header{
+  background-color: rgb(152, 199, 199);
+  height: 220px;
+  margin-bottom: 0px;
+}
+header img{
+  height: 150px;
+  margin: 10px;
+  box-shadow: 01px 01px 20px black;
+  border-radius: 100px;
+  border: 5px solid black;
+  transition: 0.15s;
+}
+header h2{
+  font-size: 50px;
+  margin-top: -22px;
+  margin-bottom: 0px;
+  text-shadow: 2px 4px 2px #5e5d5d;
+  cursor: pointer;
+}
+header h2:hover{  text-shadow: 1px 1px 0px #5e5d5d;
+}
+header img:hover{
+cursor: pointer;
+  box-shadow:20px 10px 15px;
+}
+nav{
+  background-color: black;
+  padding: 5px;
+}
+nav a{
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+  text-decoration: none;
+  padding: 0px;
+  font-size: 40px;
+  margin: 50px;
+  border-radius: 20px;
+}
+nav a:hover{
+  cursor: pointer;
+  color: black;
+  background-color: white;
+}
+section{
+  margin-top: -10px;
+height: 80vh;}
+main{
+  background-color: #ebe8e8;
+  height: 90vh;
+  width: 100%;
+}
+
+main button{
+  height: 50vh;
+  width: 30%;
+margin: 10px;
+border-radius: 50px;
+  box-shadow: 5px 15px 7px rgb(66, 65, 65);
+  cursor: pointer;
+}
+main button:hover{
+  box-shadow: 01px 01px 20px black;}
+main p{
+  font-size: 40px;
+  margin: 10px;
+  font-weight: 900;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+footer{
+  background-color: #3e3d3d;
+  color: white;
+  padding: 10px;
+}
+footer a{
+  color: aqua;
+}
+main img{
+  height: 40vh;
+  width: 40vh;
+  margin: 16px;
+  box-shadow: 10px 10px 10px;
+  cursor: pointer;
+}
+main img:hover{
+  box-shadow: 15px 15px 15px;
+}
